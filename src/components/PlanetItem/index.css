@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.planet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.planet-name {
+  color: #f8fafc;
+  font-family: 'roboto';
+  text-align: center;
+}
+
+.description {
+  color: #f1f5f9;
+  font-family: 'roboto';
+  text-align: center;
+  font-size: 14px;
+}
+.image {
+  height: 200px;
+  width: 250px;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    height: 300px;
+    width: 450px;
+  }
+}
